@@ -12,10 +12,12 @@ import SipCalculator from "@/components/calculators/SipCalculator";
 import LoanCalculator from "@/components/calculators/LoanCalculator";
 import TaxCalculator from "@/components/calculators/TaxCalculator";
 import CurrencyConverter from "@/components/calculators/CurrencyConverter";
+import AdBanner from "@/components/AdBanner";
 
 const Index = () => {
   return (
-    <div className="min-h-screen bg-background">
+    <div className="min-h-screen bg-background text-foreground">
+      <AdBanner adSlot="5907367836" />
       {/* Hero Section */}
       <div className="bg-gradient-hero text-white py-16">
         <div className="container mx-auto px-4 text-center">
@@ -183,6 +185,7 @@ const Index = () => {
           </Card>
         </div>
       </div>
+      <AdBanner adSlot="1968122826" />
     </div>
   );
 };
